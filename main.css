@@ -1,0 +1,445 @@
+body {
+    font-family: "Roboto", sans-serif;;
+    background-color: rgba(23, 23, 23, 1);
+    color: white;
+}
+.first-page {
+    background: url(../Vector.png) no-repeat;
+    height: 300px;
+    position: relative;
+}
+nav{
+    margin-bottom: 40px;
+    margin-top: 70px;
+}
+nav .logo {
+    width: 94px;
+    height: 77.48px;
+    margin-left: 25% ;
+    font-size: 13px;
+    background-color: transparent;
+    color: white;
+}
+nav span {
+    color: rgba(0, 167, 214, 1);
+}
+
+nav .navbar-toggler {
+    color: white;
+}
+.nav-link {
+    color: white !important;
+}
+.nav-th {
+    background-color: rgba(206, 249, 254, 0.13);
+    border-radius: 100px;
+
+    
+}
+.active {
+    background-color:rgba(0, 167, 214, 1) ;
+    border-radius:50px;
+    width: fit-content;
+    padding: 5px;
+}
+.first-page .col-lg-6 span {
+    color: rgba(84, 244, 252, 1);
+
+}
+.first-page .content p {
+    font-weight: bolder;
+}
+.content {
+    padding-left: 30px;
+}
+.back-lay {
+    margin-left: 25%;
+    width: 493px;
+    height: 489px;
+    border-radius: 50%;
+    background-color: rgba(2, 60, 72, 0.12);
+}
+.first-page .col-lg-6 .back-lay img {
+    width: 415px;
+    height: 474px;
+    margin: auto;
+}
+.first-page .col-lg-6 button {
+    background-color: rgba(0, 167, 214, 1);
+    width: 260px;
+    height: 61px;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    border-radius: 13px
+}
+.second-page {
+    margin-top: 40px;
+z-index: 2;
+
+}
+.second-page img {
+    width: 100%;
+ 
+}
+.about {
+    color:rgba(84, 244, 252, 1);
+    font-size: 14px;
+}
+.second-page .main {
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+.second-page .sec {
+    right: 0;
+    z-index: 33;
+    width: 240px;
+}
+.boxe {
+    width: calc(100% - 20%);
+    margin: 20px 10% 40px 10%;
+    background-image: linear-gradient(to right ,rgba(84, 244, 252, 1),rgba(84, 244, 252, 1),rgba(180, 243, 255, 0.9),rgb(23 109 180 / 75%));
+    z-index: 33;
+    border-radius: 40px;
+    padding:10px 80px 10px 12px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+
+
+.cards {
+    width: calc(90%);
+    margin: 0 5%;
+}
+.first-card ,
+.second-card ,
+.third-card { 
+    padding: 40px 10% 5px;
+    width:100% ;
+    background-image: linear-gradient(to right,rgba(50, 51, 53, 0.5),rgba(23, 23, 23, 1),rgba(50, 51, 53, 0.5));
+    border-radius: 30px;
+    text-align: center;
+    margin:30px 30px  ;
+    
+}
+.first-card:hover ,
+.second-card:hover ,
+.third-card:hover {
+    border: 1px solid rgba(0, 167, 214, 1);
+} 
+.first-card p ,
+.second-card p,
+.third-card p  {
+    font-size: 16px;
+    line-height: 2;
+    margin-top: 10px;
+}
+.first-card .circule,
+.second-card .circule,
+.third-card .circule  {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 167, 214, 1);
+    top: -25px;
+    transform: translateX(-50%);
+    left: 50%;
+    background-color: transparent;
+}
+
+.first-card .circule i ,
+.second-card .circule i,
+.third-card .circule i {
+    color: rgba(0, 167, 214, 1);
+    margin: 25% 25% ;
+    font-size: 30px;
+}
+.first-card .circule svg ,
+.second-card .circule svg,
+.third-card .circule svg {
+    color: rgba(0, 167, 214, 1);
+    margin: 25% 25% ;
+    font-size: 30px;
+}
+ .overlay-one{
+    width: 380px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: rgba(2, 60, 72, 0.12);
+}
+.overlay-one img {
+    transform: rotate3d(-37, -37, 0, 180deg);
+    width: 350px;
+    margin-top: 0%;
+    margin-left: 29px;
+    
+}
+.third-page .container img {
+    width: 100%;
+    border-radius: 20px;
+    height: 800px;
+    
+}
+.third-page .container .work-sec {
+    padding-left: 80px;
+}
+.third-page .container svg {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.third-page .container i {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.third-page .container .second-cards{
+    
+    margin-right: 10% ;
+    
+}
+.third-page .container .second-cards .col-lg-6 .st-card ,
+.third-page .container .second-cards .col-lg-6 .nd-card ,
+.third-page .container .second-cards .col-lg-6 .rd-card ,
+.third-page .container .second-cards .col-lg-6 .fth-card {
+    padding: 40px 10% 5px;
+    background-image: linear-gradient(to right,rgba(50, 51, 53, 0.5),rgba(23, 23, 23, 1),rgba(50, 51, 53, 0.5));
+    border-radius: 30px;
+    margin-bottom: 40px;
+    transition: 0.3s;
+    z-index: 2;
+}
+.third-page .container .second-cards .col-lg-6 .st-card p ,
+.third-page .container .second-cards .col-lg-6 .nd-card p ,
+.third-page .container .second-cards .col-lg-6 .rd-card p ,
+.third-page .container .second-cards .col-lg-6 .fth-card p {
+    font-size: 20px;
+}
+.third-page .container .second-cards .col-lg-6 .st-card .s-text {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+} 
+ 
+.main-text  {
+    padding: 0 25%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 100px ;
+    overflow: hidden;
+}
+.overlay-two{
+    right: -60px;
+    width: 380px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: rgba(2, 60, 72, 0.12);
+    z-index: -1;
+
+    transform: rotate3d(0, 0, 1, 90deg);
+}
+ .overlay-two img {
+    width: 354px !important;
+    margin-top: 8% !important;
+    height: 382px !important;
+    margin-right: 10%;
+}
+.fourth-page img {
+    right: 0;
+}
+.Purchase-card .st-card,
+.Purchase-card .nd-card,
+.Purchase-card .rd-card {
+    padding: 20px 30px;
+    background-image: linear-gradient(to right,rgba(50, 51, 53, 0.5),rgba(23, 23, 23, 1),rgba(50, 51, 53, 0.5));
+    border-radius: 30px;
+    margin-bottom: 40px;
+    margin: 30px 3%;
+    transition: 0.3s;
+    
+    
+}
+.Purchase-card .st-card:hover,
+.Purchase-card .nd-card:hover,
+.Purchase-card .rd-card:hover{
+    border: 1px solid rgba(0, 167, 214, 1);
+    transform: translateY(-30px);
+}
+.Purchase-card .st-card svg,
+.Purchase-card .nd-card svg,
+.Purchase-card .rd-card svg {
+    color: rgba(0, 167, 214, 1) ;
+    
+    
+} 
+.Purchase-card .st-card i,
+.Purchase-card .nd-card i,
+.Purchase-card .rd-card i {
+    color: rgba(0, 167, 214, 1) ;
+    
+    
+} 
+.Purchase-card .st-card button,
+.Purchase-card .nd-card button,
+.Purchase-card .rd-card button {
+    background-color: rgba(0, 167, 214, 1);
+    width: 100%;
+    height: 61px;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    border-radius: 13px
+}
+.price {
+    border-radius: 40px;
+    background-color: rgba(23, 23, 23, 1);
+    padding: 8px;
+    margin-bottom: 20px;
+}
+.adds {
+    width: 100%;
+    border-radius: 10px;
+    background-color:rgba(0, 167, 214, 1) ;
+    height: fit-content;
+    padding: 50px 20px 15px;
+}
+.adds input[type="text"]{
+    width: 290px !important;
+    height: 50px;
+    border: 1px solid white !important;
+    outline: none;
+    background-color:rgba(0, 167, 214, 1) ;
+    margin-left: 30px;
+}
+
+.adds input::placeholder{
+    color: white;
+}
+.adds input[type="submit"]{
+    background-color:white ;
+    width: 100px;
+    color:rgba(0, 167, 214, 1) ;
+    height: 45px;
+    margin-left: 10px;
+}
+.adds .the-mot .mtext {
+    font-size: 27px;
+}
+.adds .the-mot .see-more {
+    color: black;
+    font-weight: bolder;
+}
+.adds button {
+    border: none;
+    outline: none;
+    background-color:rgba(0, 167, 214, 1) ;
+    width: 30px;
+    height: 20px;
+    margin-left: 20px;
+}
+.reviews .st-card,
+.reviews .nd-card,
+.reviews .rd-card,
+.reviews .fth-card {
+    background-image: linear-gradient(to right,rgba(50, 51, 53, 0.5),rgba(23, 23, 23, 1),rgba(50, 51, 53, 0.5));
+    padding: 20px 30px;
+    border-radius: 20px;
+    margin: 30px;
+}
+.reviews .st-card:hover,
+.reviews .nd-card:hover,
+.reviews .rd-card:hover,
+.reviews .fth-card:hover{
+    border: 1px solid rgba(0, 167, 214, 1);
+} 
+.reviews .st-card .content,
+.reviews .nd-card .content,
+.reviews .rd-card .content,
+.reviews .fth-card .content {
+    margin: 30px 0 20px -30px;
+}
+.reviews .st-card img,
+.reviews .nd-card img,
+.reviews .rd-card img,
+.reviews .fth-card img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.reviews .st-card svg,
+.reviews .nd-card svg,
+.reviews .rd-card svg,
+.reviews .fth-card svg {
+    color: gold;
+}
+.reviews .st-card i,
+.reviews .nd-card i,
+.reviews .rd-card i,
+.reviews .fth-card i {
+    color: gold;
+}
+.subscribe {
+    background-color: white;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 30px;
+}
+.subscribe input[type="submit"] {
+    background-color:  rgba(0, 167, 214, 1); 
+}
+.subscribe input[type="text"]{
+    border: none;
+}
+
+.footer .facebook {
+    background-color: #1877f2;
+  }
+  .footer .twitter {
+    background-color: #1da1f2;
+  }
+  .footer .linkedin {
+    background-color: #0077b5;
+  }
+  .footer .youtube {
+    background-color: #ff0000;
+  }
+  .footer span {
+    color:rgba(0, 167, 214, 1) ;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.h1 {
+    font-size: 55px;
+    
+}
+.s-title {
+    color: rgba(0, 167, 214, 1);
+    font-size: 16px;
+
+} 
+.s-text {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.h2 {
+    font-size: 40px;
+}
+@media ( max-width :767px ) {
+    .adds {
+        display: none !important;
+    }
+}
